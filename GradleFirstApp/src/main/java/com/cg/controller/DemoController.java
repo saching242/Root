@@ -18,6 +18,10 @@ public class DemoController {
 	    }
 	   
 	   @RequestMapping("/")
+	    public String tested(Map<String, Object> model) {
+	        return "welcome";
+	    }
+	   @RequestMapping("/")
 	    public String demo(Map<String, Object> model) {
 	        return "welcome";
 	    }
