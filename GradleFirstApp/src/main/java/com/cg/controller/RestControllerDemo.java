@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class RestControllerDemo {
 
-	
 	@RequestMapping(value="/details", method=RequestMethod.GET)
 	public String getDetails() {
 		return "Employee Details";
