@@ -11,4 +11,14 @@ public class DemoController {
 	    public String welcome(Map<String, Object> model) {
 	        return "welcome";
 	    }
+	   
+	   @RequestMapping("/")
+	    public String test(Map<String, Object> model) {
+	        return "welcome";
+	    }
+	   
+	   @RequestMapping("/")
+	    public String demo(Map<String, Object> model) {
+	        return "welcome";
+	    }
 }
